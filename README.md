@@ -44,7 +44,7 @@ This only work for headless mode in chrome. Best to use with CI/CD environment l
   The flag -v above, means that we set mount the host folder /home/your-username/your-robot-project-name, to the docker container folder at /home/your-robot-project-name
   
 ## Run the robot command
-- There's two way to execute robot command. One is from outside the container, and another one is from outside container.
+- There's two way to execute robot command. One is from outside the container, and another one is from inside container.
 - To execute robot command from outside the container, just make sure that container is started. then execute this command:
   ```
   $ docker exec container-name robot testfile.robot
